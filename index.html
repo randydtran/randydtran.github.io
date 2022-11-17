@@ -1,0 +1,179 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+  <!-- link css -->
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+  <!-- link js -->
+  <script src="index.js" charset="utf-8" defer></script>
+  <!-- link font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <title>Randy Tran</title>
+
+</head>
+
+<body>
+  <!-- sectiion for the background -->
+  <section id=bg-image>    
+    <!-- navigation and logo -->
+    <header class="primary-header">
+      <div><a href="#"><img class="logo" src="images/Randy-Tran-Logo.png" alt="Logo" /></div>
+      <button class="mobile-nav-toggle" aria-controls="#primary-navigation" aria-expanded="false"></button>
+      <!-- navbar -->
+      <nav id="myNav">
+        <ul id="primary-navigation" class="primary-navigation" data-visible="false">
+          <li class="nav-items"><a href="#about-section"><span>01</span>About</a></li>
+          <li class="nav-items"><a href="#project-section"><span>02</span>Projects</a></li>
+          <li class="nav-items"><a href="#skill"><span>03</span>Skills</a></li>
+          <li class="nav-items"><a href="#"><span>04</span>Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- main tittle -->
+    <div class="main">
+      <h1>I'm Randy Tran.</h1>
+      <h1>A Web Developer</h1>
+      <h2>based in <span>Canada.</span></h2>
+    </div>
+  </section>
+
+
+  <!-- section about me -->
+  <section id="about-section">
+    <img class="stamp" src="images/decor1.png" alt="Logo"/>
+    <div class="container">
+      <div class="even-columns">
+        <!-- <div class="profile-img"> -->
+        <img class="pro-img" src="images/randy.png" alt="">
+        <!-- </div> -->
+        <div class="about-me">
+          <h1>Hello I'm, <span class="name">Randy Tran</span></h1>
+          <p>
+            I am a self taught Web Developer through Udemy,
+            I majored in Computer System and graduated from Southern Alberta Institute of Technology (SAIT).
+            I am currently working at Fujitsu as a IT Technician and
+            Assistant Project Coordinator. Which we're currently working on project called Evergreen. Evergreen is
+            a program that we have implemented into ServiceNow where clients have user friendly interface for ordering,
+            messaging,
+            and auto populating drop down list. I have been working with Fujitsu for 1 year now.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="project-section">
+    <div class="container">
+      <h1 class="project-header">Projects</h1>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="content-container">
+              <img class="project-img"src="images/Project1.png" alt="">
+              <div class="text-container">
+                <h2 class="title">Coming soon page</h2>
+                <h3 class="sub-title">HTML <span>CSS</span></h3>
+                <p class="desc">This layout looks simple enough, but there are some interesting details to it that will test your CSS skills. You'll also get to practice basic form validation.</p>
+              </div> 
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="content-container">
+              <img class="project-img"src="images/Project2.png" alt="">
+              <div class="text-container">
+                <h2 class="title">Advice generator app</h2>
+                <h3 class="sub-title">HTML <span>CSS</span></h3>
+                <p class="desc">The perfect project if you're learning how to interact with 3rd-party APIs. This challenge uses the Advice Slip API to generate random quotes of advice.</p>
+              </div> 
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="content-container">
+              <img class="project-img"src="images/Project3.png" alt="">
+              <div class="text-container">
+                <h2 class="title">Tip calculator app</h2>
+                <h3 class="sub-title">HTML <span>CSS</span></h3>
+                <p class="desc">This small app is perfect for anyone starting to get to grips with JavaScript. The calculator functionality will be a nice test!</p>
+              </div> 
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+  <section id="skill">
+    <div class="skill-container">
+      <div class="skill-bio">
+        <h1>My skills</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga rerum quaerat nam a corporis ex quae, enim delectus repellendus ad illo quam qui suscipit sequi minus, ipsa placeat. Corrupti, perspiciatis!</p>
+      </div>
+      <div class="skills-bar">
+        <div class="bar">
+          <div class="info">
+            <span>HTML</span>
+          </div>
+          <div class="progress-line html">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <span>CSS</span>
+          </div>
+          <div class="progress-line css">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <span>JS</span>
+          </div>
+          <div class="progress-line js">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <span>Python</span>
+          </div>
+          <div class="progress-line python">
+            <span></span>
+          </div>
+        </div>
+        <div class="bar">
+          <div class="info">
+            <span>MySQL</span>
+          </div>
+          <div class="progress-line mysql">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer id="contact">
+    <div class="contact">
+      <div class="footer-content">
+        <ul class="socials">
+          <li><a href="https://www.linkedin.com/in/linkrandy/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+          <li><a href="mailto:r.ndy.403@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+        </ul>
+        <p>Designed by <span>Randy Tran</span></p>
+      </div>
+    </div>
+      </footer>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+</body>
+
+</html>
